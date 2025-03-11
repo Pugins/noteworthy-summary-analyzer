@@ -1,0 +1,27 @@
+{
+  "name": "noteworthy-summary-analyzer",
+  "version": "1.0.0",
+  "description": "AI is crazy!",
+  "main": "app.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20.x"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "register": "node commands.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "pugins",
+  "license": "MIT",
+  "dependencies": {
+    "discord-interactions": "^4.1.1",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
